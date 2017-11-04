@@ -1,0 +1,11 @@
+{
+	"title"		:	"PoseCore Expression2 Extension",
+	"type"		:	"tool",
+	"tags"		:	[ "cartoon", "realism", "comic" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}
