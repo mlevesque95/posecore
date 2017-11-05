@@ -16,6 +16,7 @@ Install the addon as any other addon into addons\\.
 ### Added Functions
 Function | Description 
 --- | --- 
+**Flexes**
 e:setFlexWeight(s,n) | Sets a flex on an entity using the flexes name; much like the Finger and Face Poser tools. (Use holoEntity(N):setFlex to set flexes to holograms.) (Use e:getFlexName(n) to get it's name.)
 e:setFlexWeight(n,n) | Sets a flex on an entity using the flexes ID; much like the Finger and Face Poser tools. (Use holoEntity(N):setFlex to set flexes to holograms.) (Use e:getFlexID(s) to get it's ID.)
 e:getFlexID(s) | Gives the ID of the flex by provided name.
@@ -25,7 +26,7 @@ e:getFlexWeight(n) | Gives the weight of the specified flex (By ID) of the provi
 e:getFlexCount() | Gives the amount of flexes the provided entity has.
 e:setFlexScale(n) | Sets the overall weight modifier for flexes.
 e:setEyePos(v) | Sets the aim position for a ragdoll/hologram. (Much like the Eye Poser tool.)
-Bones
+**Bones**
 e:setBonePos(n,v) | Sets the position of the bone with the specified ID; belonging to the entity provided.
 e:setBoneAng(n,a) | Sets the angle of the bone with the specified ID; belonging to the entity provided.
 e:setBoneScale(n,v) | Sets the scale (From 0 to 10) of the bone with the specified ID; belonging to the entity provided.
@@ -34,5 +35,5 @@ e:getBoneScale(n) | Gives the manipulated scale of the bone with the specified I
 e:getBoneAng(n) | Gives the manipulated angle of the bone with the specified ID; belonging to the entity provided. (Works unlike B:angles() as this returns the manipulated angle from the original.)
 e:getBonePos(n) | Gives the manipulated position of the bone with the specified ID; belonging to the entity provided. (Works unlike B:pos() as this returns the manipulated position from the original.)
 e:getBoneJiggle(n) | Gives the jiggle amount of the bone with the specified ID; belonging to the entity provided.
-Anim
+**Anim**
 e:getAnimTime() | Gives the time (Relative to curtime(), between 0 and 1) the animation has been playing for.
