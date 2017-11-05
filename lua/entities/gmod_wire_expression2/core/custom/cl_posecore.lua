@@ -36,4 +36,4 @@ E2Helper.Descriptions["getBonePos(e:n)"] = "Gives the manipulated position of th
 E2Helper.Descriptions["getBoneJiggle(e:n)"] = "Gives the jiggle amount of the bone with the specified ID; belonging to the entity provided."
 
 --Anim
-E2Helper.Descriptions["getAnimTime()"] = "Gives the time (Relative to curtime(), between 0 and 1) the animation has been playing for."
+E2Helper.Descriptions["getAnimTime(e:)"] = "Gives the time (Relative to curtime(), between 0 and 1) the animation has been playing for."
